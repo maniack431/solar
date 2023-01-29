@@ -32,4 +32,4 @@
         
     _To run the Screen Locker you have to run it using dmenu, just type "slock"_
  
- **Thank You and Have a Good Day :)**
+ **Thank You and Have a Good FLARE :)**
