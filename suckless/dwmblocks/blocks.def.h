@@ -5,7 +5,9 @@ static const Block blocks[] = {
 
 /*	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},*/
 
-//	{" : ", "acpi | awk '/^Battery/ {print $3\" \"$4}' | sed s/,//g",        2,             0},
+	{"", "acpi | awk '/^Battery/ {print $3\" \"$4}' | sed s/,//g",        2,             0},
+//	{"", "nmcli | grep connected\ to | awk '{ print $1 $4}'",        2,             0},
+	{"", "nmcli | awk 'NR==1{print $1 $4}'",        2,             0},
 	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 };
 
