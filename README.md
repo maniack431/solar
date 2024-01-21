@@ -1,5 +1,5 @@
 # solar
-# dwmconf
+
 **My DWM dotfiles :D**
 
 **Requirements:**
