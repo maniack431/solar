@@ -31,5 +31,3 @@
         cd ~/dwmconf/suckless/slockcustom/slock && sudo cp config.def.h config.h && sudo make clean install && cd
         
     _To run the Screen Locker you have to run it using dmenu, just type "slock"_
- 
- **Thank You and Have a Good FLARE :)**
